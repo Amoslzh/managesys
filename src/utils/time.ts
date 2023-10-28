@@ -16,4 +16,6 @@ function getcntime(){
     return msg
 }
 
-console.log(getcntime());
+export {
+    getcntime
+}

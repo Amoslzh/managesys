@@ -4,10 +4,12 @@ export interface loginform {
 }
 
 export interface loginres {
-  code: string;
+  code: number;
   data: {
-    token: string;
+    token?: string;
+    message?:string;
   };
+  
 }
 
 interface userdata {
@@ -23,7 +25,7 @@ interface userdata {
 }
 
 export interface userinfores {
-  code: string;
+  code: number;
   data: {
     checkUser:userdata
   };
