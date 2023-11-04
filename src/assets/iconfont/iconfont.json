@@ -6,25 +6,11 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "162882",
-      "name": "设置",
-      "font_class": "shezhi",
-      "unicode": "f018f",
-      "unicode_decimal": 983439
-    },
-    {
-      "icon_id": "201557",
-      "name": "关闭",
-      "font_class": "guanbi",
-      "unicode": "f01f1",
-      "unicode_decimal": 983537
-    },
-    {
-      "icon_id": "3456457",
-      "name": "设置",
-      "font_class": "shezhi1",
-      "unicode": "e70f",
-      "unicode_decimal": 59151
+      "icon_id": "2675009",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
     },
     {
       "icon_id": "7515702",
@@ -41,11 +27,74 @@
       "unicode_decimal": 58888
     },
     {
-      "icon_id": "11239058",
-      "name": "微信",
-      "font_class": "weixin",
-      "unicode": "e647",
-      "unicode_decimal": 58951
+      "icon_id": "12387131",
+      "name": "屏幕",
+      "font_class": "pingmu",
+      "unicode": "e90b",
+      "unicode_decimal": 59659
+    },
+    {
+      "icon_id": "12387133",
+      "name": "笔记",
+      "font_class": "biji",
+      "unicode": "e90a",
+      "unicode_decimal": 59658
+    },
+    {
+      "icon_id": "12387134",
+      "name": "短袖",
+      "font_class": "duanxiu",
+      "unicode": "e90c",
+      "unicode_decimal": 59660
+    },
+    {
+      "icon_id": "12387144",
+      "name": "商店",
+      "font_class": "shangdian",
+      "unicode": "e90e",
+      "unicode_decimal": 59662
+    },
+    {
+      "icon_id": "12387147",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e90d",
+      "unicode_decimal": 59661
+    },
+    {
+      "icon_id": "12387151",
+      "name": "钥匙",
+      "font_class": "yuechi",
+      "unicode": "e90f",
+      "unicode_decimal": 59663
+    },
+    {
+      "icon_id": "12387154",
+      "name": "钱包",
+      "font_class": "qianbao",
+      "unicode": "e910",
+      "unicode_decimal": 59664
+    },
+    {
+      "icon_id": "12387155",
+      "name": "资讯",
+      "font_class": "zixun",
+      "unicode": "e911",
+      "unicode_decimal": 59665
+    },
+    {
+      "icon_id": "12387160",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e912",
+      "unicode_decimal": 59666
+    },
+    {
+      "icon_id": "12387169",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e913",
+      "unicode_decimal": 59667
     }
   ]
 }

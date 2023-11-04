@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1698047480598') format('truetype');
+  src: url('iconfont.ttf?t=1699109122745') format('truetype');
 }
 
 .iconfont {
@@ -11,16 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shezhi:before {
-  content: "\f018f";
-}
-
-.icon-guanbi:before {
-  content: "\f01f1";
-}
-
-.icon-shezhi1:before {
-  content: "\e70f";
+.icon-shouye:before {
+  content: "\e62e";
 }
 
 .icon-yonghuming:before {
@@ -31,7 +23,43 @@
   content: "\e608";
 }
 
-.icon-weixin:before {
-  content: "\e647";
+.icon-pingmu:before {
+  content: "\e90b";
+}
+
+.icon-biji:before {
+  content: "\e90a";
+}
+
+.icon-duanxiu:before {
+  content: "\e90c";
+}
+
+.icon-shangdian:before {
+  content: "\e90e";
+}
+
+.icon-shaixuan:before {
+  content: "\e90d";
+}
+
+.icon-yuechi:before {
+  content: "\e90f";
+}
+
+.icon-qianbao:before {
+  content: "\e910";
+}
+
+.icon-zixun:before {
+  content: "\e911";
+}
+
+.icon-yonghu:before {
+  content: "\e912";
+}
+
+.icon-xiangmu:before {
+  content: "\e913";
 }
 

@@ -3,16 +3,26 @@
     <!-- 左侧菜单 -->
     <div class="slider">
       <logo></logo>
+      <el-menu background-color="#252526" text-color="#ffffff" router>
+        <Manu :routemanu="store.routemanu"></Manu>
+      </el-menu>
+      
     </div>
     <!-- 顶部选项 -->
     <div class="tabbar">456</div>
     <!-- 内容区域 -->
-    <div class="layout_main">789</div>
+    <div class="layout_main" >
+      <Main></Main>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import Logo from './logo/index.vue'
+import Manu from './manu/Manu.vue';
+import userStore from "@/store/modules/user";
+import Main from './main/index.vue'
+const store = userStore();
 </script>
 
 <style scoped lang="scss">
@@ -26,7 +36,9 @@ import Logo from './logo/index.vue'
     height: 100vh;
     background: $slider-bcolor;
     padding: 8px;
-
+    .el-menu{
+      border-right: none;
+    }
   }
 
   .tabbar {
