@@ -11,7 +11,7 @@ const routes: Readonly<RouteRecordRaw[]> = [
     },
     children:[
       {
-        path: "home",
+        path: "/home",
         component: () => import("@/views/home/index.vue"),
         name: "home",
         meta:{

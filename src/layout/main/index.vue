@@ -11,7 +11,7 @@
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
-.fade-enter-active, {
+.fade-enter-active{
   transition: all 0.5s ease;
 }
 

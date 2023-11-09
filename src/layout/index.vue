@@ -3,7 +3,7 @@
     <!-- 左侧菜单 -->
     <div class="slider">
       <logo></logo>
-      <el-menu background-color="#252526" text-color="#ffffff" router>
+      <el-menu background-color="#252526" text-color="#ffffff" router :default-active="route.path">
         <Manu :routemanu="store.routemanu"></Manu>
       </el-menu>
       
@@ -23,6 +23,14 @@ import Manu from './manu/Manu.vue';
 import userStore from "@/store/modules/user";
 import Main from './main/index.vue'
 const store = userStore();
+
+
+
+import { useRoute } from 'vue-router';
+const route = useRoute()
+console.log(route.path);
+
+
 </script>
 
 <style scoped lang="scss">
