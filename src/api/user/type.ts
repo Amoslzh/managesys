@@ -27,6 +27,7 @@ interface userdata {
 export interface userinfores {
   code: number;
   data: {
-    checkUser:userdata
+    checkUser:userdata,
+    message?:string;
   };
 }

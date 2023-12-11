@@ -1,16 +1,58 @@
 {
-  "id": "",
-  "name": "",
+  "id": "4327726",
+  "name": "后台管理系统",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "672036",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "16020747",
+      "name": "折叠2",
+      "font_class": "zhedie2",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "16020767",
+      "name": "折叠1",
+      "font_class": "zhedie1",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
     {
       "icon_id": "2675009",
       "name": "首页",
       "font_class": "shouye",
       "unicode": "e62e",
       "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "5387529",
+      "name": "加载_刷新",
+      "font_class": "jiazai_shuaxin",
+      "unicode": "eaf4",
+      "unicode_decimal": 60148
+    },
+    {
+      "icon_id": "5387606",
+      "name": "全屏",
+      "font_class": "quanping",
+      "unicode": "eb11",
+      "unicode_decimal": 60177
+    },
+    {
+      "icon_id": "5387888",
+      "name": "全局设置_o",
+      "font_class": "quanjushezhi_o",
+      "unicode": "eb80",
+      "unicode_decimal": 60288
     },
     {
       "icon_id": "7515702",

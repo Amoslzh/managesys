@@ -7,8 +7,9 @@ const routes: Readonly<RouteRecordRaw[]> = [
     component: () => import("@/layout/index.vue"),
     name: "layout",
     meta:{
-      title:'layout',
+      title:'',
     },
+    redirect:"/home",
     children:[
       {
         path: "/home",
@@ -29,6 +30,7 @@ const routes: Readonly<RouteRecordRaw[]> = [
       title:'权限控制',
       icon:"iconfont icon-yuechi"
     },
+    redirect:"/acl/user",
     children:[
       {
         path:"/acl/user",
