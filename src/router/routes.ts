@@ -1,3 +1,4 @@
+import { reactive } from "vue";
 import type { RouteRecordRaw } from "vue-router";
 
 
@@ -106,17 +107,8 @@ const routes: Readonly<RouteRecordRaw[]> = [
           title:'SKU管理',
           icon:"iconfont icon-biji"
         }
-      } 
+      },
     ]
-  },
-  {
-    path: "/login",
-    component: () => import("@/views/login/index.vue"),
-    name: "login",
-    meta:{
-      title:'login',
-      hide:true,
-    }
   },
   {
     path: "/login",
@@ -144,6 +136,8 @@ const routes: Readonly<RouteRecordRaw[]> = [
  
 
 ];
+
+
 
 export default routes;
   // {

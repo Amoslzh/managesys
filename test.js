@@ -1,9 +1,11 @@
-let aa = [1,2,3]
-let b = aa.find(item=>item<2 )
+let p = new Promise((res,reject)=>{
+    res(1)
+})
 
-
-console.log(b);
-
-b =4
-
-console.log(aa);
+p.then((res)=>{
+    return Promise.reject('cao')
+}).then((res)=>{
+    console.log('ss',res);
+},(rson)=>{
+    console.log('shule',rson);
+})

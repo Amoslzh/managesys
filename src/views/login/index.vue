@@ -5,9 +5,13 @@
         <el-button>Go1</el-button>
       </el-col>
       <el-col :span="12">
-
         <!-- // -->
-        <el-form :model="loginform" class="login_form" :rules="rule" ref="formRef">
+        <el-form
+          :model="loginform"
+          class="login_form"
+          :rules="rule"
+          ref="formRef"
+        >
           <p class="title">Hello</p>
           <p class="hytl">欢迎使用后台系统</p>
           <el-form-item class="msgitem" prop="username">
@@ -56,23 +60,21 @@ let loginform = reactive({
 });
 
 async function handle_login(formEl: FormInstance | undefined) {
-  if (!formEl) return
+  if (!formEl) return;
 
   //查看校验结果
   let res = await formEl.validate((valid) => {
     if (valid) {
-      console.log('submit!')
+      console.log("submit!");
     } else {
-      console.log('error submit!')
-      return false
+      console.log("error submit!");
+      return false;
     }
-  })
+  });
 
   if (!res) {
-    return
+    return;
   }
-  
-  
 
   let msg = getcntime();
   store
@@ -114,8 +116,6 @@ const rule = {
 };
 
 const formRef = ref<FormInstance>();
-
-
 </script>
 
 <style scoped>

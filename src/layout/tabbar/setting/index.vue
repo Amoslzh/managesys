@@ -43,7 +43,6 @@ const router = useRouter()
 function handleRefresh(){
   setstore.refresh = !setstore.refresh
 }
-
 function handleFullscreen(){
   let full = document.fullscreenElement;
   //判断此时是否全屏
@@ -54,10 +53,16 @@ function handleFullscreen(){
   }
 }
 
-function handleLogout() {
-  userstore.userLogout()
-  router.push('/login')
+async function handleLogout() {
+  userstore.userLogout().then(()=>{
+    router.push('/login')
+  }).catch((res)=>{
+    console.log("退出错误",res);
+    
+  })
+  
 }
+
 
 </script>
 
